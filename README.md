@@ -38,19 +38,22 @@ git clone https://github.com/seu-usuario/linktree-pro.git
 cd linktree-pro
 npx serve .
 Ou simplesmente abra o arquivo index.html no navegador.
+```
 
 📝 Personalização
 Alterar Perfil
-Edite data/profile.json:
+Edite ````data/profile.json:````
 
+```bash
 {
   "name": "Seu Nome",
   "avatar": "assets/images/sua-foto.jpg",
   "bioTexts": ["Sua bio 1", "Sua bio 2"]
 }
+````
 Adicionar Links
-Edite data/links.json:
-
+Edite ````data/links.json````:
+````bash
 {
   "links": [
     {
@@ -63,6 +66,7 @@ Edite data/links.json:
     }
   ]
 }
+````
 Redes Sociais
 Edite data/social.json:
 {
@@ -74,3 +78,33 @@ Edite data/social.json:
     }
   ]
 }
+📁 Estrutura do Projeto
+````
+linktree-pro/
+├── assets/
+│   ├── images/
+│   │   └── avatar.jpg
+│   └── icons/
+├── css/
+│   ├── reset.css
+│   ├── variables.css
+│   ├── animations.css
+│   ├── styles.css
+│   └── responsive.css
+├── js/
+│   ├── theme.js
+│   ├── typing.js
+│   ├── links.js
+│   ├── analytics.js
+│   └── app.js
+├── data/
+│   ├── profile.json
+│   ├── links.json
+│   └── social.json
+├── index.html
+├── README.md
+└── .gitignore
+````
+
+
+
