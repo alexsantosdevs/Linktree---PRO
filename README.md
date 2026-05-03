@@ -107,6 +107,35 @@ linktree-pro/
 ├── README.md
 └── .gitignore
 ````
+🌐 Deploy
+GitHub Pages (Grátis)
+````bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/linktree-pro.git
+git push -u origin main
+````
+No GitHub: Settings → Pages → Source: ````main```` → Save
+
+🎯 Roadmap
+Integração com APIs de redes sociais
+
+Página de admin para editar links
+
+Templates customizáveis
+
+Short URLs personalizados
+
+Dashboard de analytics avançado
+
+📄 Licença
+MIT © LinkTree PRO - 2026
+
+Feito com 💜 por Alex Santos
+
+
 
 
 
