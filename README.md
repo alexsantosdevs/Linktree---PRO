@@ -130,9 +130,6 @@ Short URLs personalizados
 
 Dashboard de analytics avançado
 
-📄 Licença
-MIT © LinkTree PRO - 2026
-
 Feito com 💜 por Alex Santos
 
 
