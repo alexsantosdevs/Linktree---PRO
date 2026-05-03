@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LinkTree PRO - Agregador de links profissional com design premium">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta property="og:title" content="LinkTree PRO">
+    <meta property="og:description" content="Todos os meus links em um só lugar">
+    <meta property="og:type" content="website">
+    <title>LinkTree PRO | Seus links em um só lugar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="background-orb orb-1"></div>
+    <div class="background-orb orb-2"></div>
+    <div class="background-orb orb-3"></div>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <main class="container">
+        <header class="profile-section fade-in-up">
+            <div class="avatar-wrapper">
+                <div class="avatar-ring"></div>
+                <img 
+                    src="assets/images/logo.png" 
+                    alt="Foto de perfil" 
+                    class="avatar"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                    loading="eager"
+                >
+                <div class="avatar-fallback" style="display: none;">
+                    <span class="avatar-initials">LS</span>
+                </div>
+                <div class="avatar-status"></div>
+            </div>
+            <h1 class="profile-name"></h1>
+            <div class="profile-meta">
+                <span class="profile-location" id="profileLocation"></span>
+                <span class="meta-divider">·</span>
+                <span class="profile-company" id="profileCompany"></span>
+            </div>
+            <div class="bio-wrapper">
+                <p class="profile-bio" id="typingBio"></p>
+                <span class="cursor-blink">|</span>
+            </div>
+            <div class="stats-mini">
+                <div class="stat-item">
+                    <span class="stat-number" id="linkCount">0</span>
+                    <span class="stat-label">Links</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" id="viewCount">0</span>
+                    <span class="stat-label">Visualizações</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" id="clickCount">0</span>
+                    <span class="stat-label">Cliques</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="links-section fade-in-up">
+            <div class="links-container" id="linksContainer">
+                <div class="link-skeleton">
+                    <div class="skeleton-thumb"></div>
+                    <div class="skeleton-text"></div>
+                </div>
+                <div class="link-skeleton">
+                    <div class="skeleton-thumb"></div>
+                    <div class="skeleton-text"></div>
+                </div>
+                <div class="link-skeleton">
+                    <div class="skeleton-thumb"></div>
+                    <div class="skeleton-text"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="social-section fade-in-up">
+            <div class="social-links" id="socialContainer"></div>
+            <div class="footer-disclaimer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="disclaimer-icon">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="12" y1="8" x2="12" y2="12"/>
+                    <line x1="12" y1="16" x2="12.01" y2="16"/>
+                </svg>
+                <p>AVISO: Este é um site criado para fins educacionais e testes. As imagens utilizadas são para efeito de demonstração e estudos, provenientes de bancos de imagens gratuitos (Unsplash). Esta não é uma aplicação real.</p>
+            </div>
+            <div class="footer-credits">
+                <span class="credits-text">Desenvolvido por</span>
+                <strong class="credits-name">Alex Santos</strong>
+                <div class="credits-logo">
+                    <img src="assets/images/logo.png" alt="Logo" class="logo-image" onerror="this.style.display='none'">
+                    <span class="logo-placeholder">LOGO</span>
+                </div>
+            </div>
+            <div class="footer-branding">
+                <span class="branding-text">LinkTree PRO</span>
+                <span class="branding-dot">·</span>
+                <span class="branding-year">2026</span>
+            </div>
+        </footer>
+    </main>
+
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="js/links.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

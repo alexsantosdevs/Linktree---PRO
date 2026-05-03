@@ -1,0 +1,49 @@
+{
+  "links": [
+    {
+      "id": "portfolio",
+      "title": "Portfólio",
+      "description": "Meus melhores trabalhos",
+      "url": "https://example.com/portfolio",
+      "icon": "portfolio",
+      "thumbnail": "",
+      "badge": "NOVO"
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "description": "Código open-source",
+      "url": "https://github.com",
+      "icon": "github",
+      "thumbnail": "",
+      "badge": ""
+    },
+    {
+      "id": "youtube",
+      "title": "Canal do YouTube",
+      "description": "Tutoriais e dicas",
+      "url": "https://youtube.com",
+      "icon": "youtube",
+      "thumbnail": "",
+      "badge": ""
+    },
+    {
+      "id": "newsletter",
+      "title": "Newsletter",
+      "description": "Insights semanais de tecnologia",
+      "url": "https://example.com/newsletter",
+      "icon": "newsletter",
+      "thumbnail": "",
+      "badge": "GRÁTIS"
+    },
+    {
+      "id": "course",
+      "title": "Curso Completo de Desenvolvimento",
+      "description": "Aprenda do zero ao avançado",
+      "url": "https://example.com/course",
+      "icon": "course",
+      "thumbnail": "",
+      "badge": "PREMIUM"
+    }
+  ]
+}

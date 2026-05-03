@@ -1,0 +1,29 @@
+{
+  "social": [
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com",
+      "icon": "instagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "twitter"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com",
+      "icon": "discord"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:contato@exemplo.com",
+      "icon": "email"
+    }
+  ]
+}
