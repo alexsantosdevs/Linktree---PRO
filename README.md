@@ -68,7 +68,8 @@ Edite ````data/links.json````:
 }
 ````
 Redes Sociais
-Edite data/social.json:
+Edite ````data/social.json````:
+````
 {
   "social": [
     {
@@ -78,6 +79,7 @@ Edite data/social.json:
     }
   ]
 }
+````
 📁 Estrutura do Projeto
 ````
 linktree-pro/
