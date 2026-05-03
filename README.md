@@ -39,9 +39,7 @@ cd linktree-pro
 npx serve .
 ````
 Ou simplesmente abra o arquivo ````index.html```` no navegador.
-```
 
-````
 📝 Personalização
 Alterar Perfil
 Edite ````data/profile.json:````
