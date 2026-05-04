@@ -44,8 +44,6 @@ Ou simplesmente abra o arquivo ````index.html```` no navegador.
 Alterar Perfil
 Edite ````data/profile.json:````
 ````
-
-```bash
 {
   "name": "Seu Nome",
   "avatar": "assets/images/sua-foto.jpg",
