@@ -33,7 +33,7 @@ Um agregador de links moderno e elegante, alternativa superior ao Linktree tradi
 
 ## 🚀 Instalação
 
-```bash
+```
 git clone https://github.com/seu-usuario/linktree-pro.git
 cd linktree-pro
 npx serve .
